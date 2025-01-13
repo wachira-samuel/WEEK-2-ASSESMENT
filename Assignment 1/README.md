@@ -36,7 +36,7 @@ Write a function in JavaScript to check if a given password contains repetitive 
 
 Write a function that reverses a string
 
-        function reverseString(s) {
+    function reverseString(s) {
     let res = [];
     for (let i = s.length - 1; i >= 0; i--) {
         res.push(s[i]);
