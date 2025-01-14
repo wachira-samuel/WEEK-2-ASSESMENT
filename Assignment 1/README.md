@@ -19,9 +19,9 @@ Write a function in JavaScript to check if a given password contains repetitive 
     let prevDigit = '';
     
     for (let char of password) {
-        if (char === prevDigit) {
+        if (char === prevDigit && char == !NAN) {
             count++;
-            if (count >=2) return true;
+            if (count >=1) return true;
         } else {
             count = 0;
             prevDigit = char;
