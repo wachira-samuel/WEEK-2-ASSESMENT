@@ -16,8 +16,8 @@ This project is a simple CRUD application for managing a collection of movies. I
 - `README.md`: Documentation for the project.
 
 ## Setup and Running the Application
-1. Clone the repository.
-2. Open the project in your preferred code editor.
-3. Open `index.html` in a web browser to view the application.
-4. Ensure that you have a local server running to handle file requests if necessary.
+    1. Clone the repository.
+    2. Open the project in your preferred code editor.
+    3. Open `index.html` in a web browser to view the application.
+    4. Ensure that you have a local server running to handle file requests if necessary.
 
