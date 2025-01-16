@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;900&display=swap');
+
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf8f9;
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper{
+    width: 100px;
+}
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding:0 4rem;
+}
+
+h2{
+    font-size: 2.488rem;
+    font-weight: 900;
+}
+h3{
+    font-size: 2.074rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.728;
+    font-weight: 700;
+}
+h5{
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+h6{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar{
+    width:100%;
+    background-color:white;
+}
+
+.create-movie{
+    width:100%;
+}
+
+.display-movies{
+    width:100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.main-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.wrapper {
+    margin-bottom: 20px;
+}
+.container {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form input, form textarea, form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+.movies-list .movie {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.movies-list .movie:last-child {
+    border-bottom: none;
+}
+.movie button {
+    margin: 5px 0;
+}

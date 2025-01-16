@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platimunz Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="wrapper">
+            <div class="navbar container">
+                <div class="logo">
+                    <h3>Platinumz Movies</h3>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="create-movie container">
+                <h2>Create a Movie</h2>
+                <form id="movieForm">
+                    <input type="text" id="title" placeholder="Movie Title" required />
+                    <textarea id="description" placeholder="Movie Description" required></textarea>
+                    <input type="text" id="image" placeholder="Image URL" required />
+                    <input type="number" id="year" placeholder="Year Released" required />
+                    <button type="submit">Add Movie</button>
+                </form>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="display-movies container">
+                <h2>Display Movies</h2>
+                <div class="movies-list" id="moviesList"></div>
+            </div>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</html>
